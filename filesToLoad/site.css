@@ -1,5 +1,4 @@
 html {
-    /* background: #271E6F; */
     overflow: auto;
     font-family: sans-serif;
     font-weight: 300;
@@ -33,7 +32,6 @@ body {
 }
 
 #chat {
-    /* border: 2px solid rgb(4, 7, 75); */
     border: 2px solid #AEC5E5;
     display: block;
     margin: auto;
