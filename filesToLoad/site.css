@@ -1,0 +1,116 @@
+html {
+    /* background: #271E6F; */
+    overflow: auto;
+    font-family: sans-serif;
+    font-weight: 300;
+    color: white;
+    letter-spacing: 0.1em;
+    height: 100%;
+}
+
+p,div {
+    font-family: 'Fjalla One', sans-serif;
+    margin: 0px;
+}
+
+#msg-list, #online-user-list {
+    margin: 0px;
+    padding-left: 0px;
+}
+
+li {
+    list-style-type: none;
+    padding-bottom: 5px;
+}
+
+body {
+    background: #26DDF4;
+    background-image: url('./spaceship.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+#chat {
+    /* border: 2px solid rgb(4, 7, 75); */
+    border: 2px solid #AEC5E5;
+    display: block;
+    margin: auto;
+    width: 60%;
+    height: 500px;
+    margin-top: 100px;
+    background: #AEC5E5;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+.container-grid {
+    display: grid;
+    grid-template-columns: 70% 30%; /*columns widths*/
+    height: 410px;
+    padding-bottom: 20px;
+}
+  
+#msg-container {
+    background-color: #12296D;
+    margin-right: 10px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    overflow: auto;
+    padding: 10px;
+}
+  
+#user-container {
+    background-color: #12296D;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    overflow: auto;
+    padding: 10px;
+}
+
+.child {
+    width: 100%;
+    overflow: auto;
+}
+
+input {
+    width: 90%;
+}
+
+button {
+    margin-left: 10px;
+    margin-right: 1px;
+    width: 8%;
+    background-color: white;
+    overflow: hidden;
+}
+
+#title-text {
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#chat-dialog { 
+    width: 100%;
+    white-space: nowrap;
+    height: 100px;
+}
+
+/* Small devices: tablets and phones */
+@media only screen and (max-width : 768px) {
+    input {
+        width: 70%;
+    }
+
+    button {
+        width: 30%;
+        margin-right: 120px;
+    }
+}
