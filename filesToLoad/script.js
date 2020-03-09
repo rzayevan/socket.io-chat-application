@@ -49,6 +49,7 @@ $(document).ready(function(){
         $("#msg-list").append($('<li>')
             .css("color", "#FD8E70")
             .html(error));
+        $(".child")[0].scrollTop = $(".child")[0].scrollHeight;
     }
 
     /**
@@ -59,6 +60,7 @@ $(document).ready(function(){
         $("#msg-list").append($('<li>')
             .css("color", "#4ED964")
             .html(message));
+        $(".child")[0].scrollTop = $(".child")[0].scrollHeight;
     }
 
     //// Listen to events from server ////
